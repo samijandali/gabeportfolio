@@ -2,21 +2,38 @@ img{
     padding-left: 20px;
 }
 
-.imageButton {
-    background-image: url('../../assets/logos/github.svg'); /* Path to your image */
-    background-color: white;
-    background-size: cover; 
-    background-position: center; /*Center the background image */
-    border: none; 
-    color: white; 
-    border-color: white;
-    padding: 10px 20px; /* Size of the bautton, adjust as needed
-    /* Add other styles as needed */
+.my-navbar {
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
-Button {
-    color: transparent;
-    background-color: transparent;
-    border-color: transparent;
+.my-link{
+    font-size: 18px;
+    text-decoration: none;
+    color: #666666;
+    padding-left: 60px;
+    width: 150px;
 }
-  
+.my-link:hover{
+    font-weight: bold;
+}
+.my-link:before{
+    display: block;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+img{
+    padding-left: 25px;
+    height: 25px;
+}
+
+.my-name{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
