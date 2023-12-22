@@ -1,3 +1,22 @@
 img{
     padding-left: 20px;
 }
+
+.imageButton {
+    background-image: url('../../assets/logos/github.svg'); /* Path to your image */
+    background-color: white;
+    background-size: cover; 
+    background-position: center; /*Center the background image */
+    border: none; 
+    color: white; 
+    border-color: white;
+    padding: 10px 20px; /* Size of the bautton, adjust as needed
+    /* Add other styles as needed */
+  }
+
+Button {
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+  

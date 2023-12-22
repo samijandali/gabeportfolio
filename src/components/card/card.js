@@ -1,0 +1,64 @@
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import React from 'react';
+import deltademo from '../../assets/logos/deltademo.png';
+import { Container, Row } from 'react-bootstrap';
+import './card.css';
+
+function ProjectCard() {
+    return (
+        <Container fluid="md">
+            <Row>
+                <Card className='customCard' style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={deltademo} />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+                <Card className='customCard' style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={deltademo} />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+            </Row>
+            <Row>
+                <Card className='customCard' style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={deltademo} />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+                <Card className='customCard' style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={deltademo} />
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+            </Row>
+        </Container>
+
+    );
+}
+
+export default ProjectCard;
