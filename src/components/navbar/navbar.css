@@ -3,7 +3,7 @@ img{
 }
 
 .my-navbar {
-    background-color: #FFFFFF;
+    background-color: darkgray;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -36,4 +36,8 @@ img{
     color: black;
     font-size: 20px;
     font-weight: bold;
+}
+
+.img-button {
+    margin-top: 6px;
 }

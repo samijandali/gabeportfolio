@@ -15,10 +15,10 @@ function NavBar() {
           <Nav.Link class="my-link" href="#home">Tech Stack</Nav.Link>
           <Nav.Link class="my-link" href="#link">Projects</Nav.Link>
           <Nav.Link style={{ paddingRight: "40px" }} class="my-link" href="#home">Contact</Nav.Link>
-          <a href='https://github.com/TheFunnyPapa' target="_blank" rel="noopener noreferrer">
+          <a className='img-button' href='https://github.com/TheFunnyPapa' target="_blank" rel="noopener noreferrer">
             <img src={githubLogo} alt="GitHub"></img>
           </a>
-          <a href='https://www.linkedin.com/in/gabrielragy/' target="_blank" rel="noopener noreferrer">
+          <a className='img-button' href='https://www.linkedin.com/in/gabrielragy/' target="_blank" rel="noopener noreferrer">
             <img src={linkedInLogo} alt="GitHub"></img>
           </a>
         </Nav>
