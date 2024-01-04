@@ -14,6 +14,12 @@ import {
   // @ts-ignore
   useFrame,
 } from 'shadergradient'
+import * as reactSpring from '@react-spring/three';
+import * as drei from '@react-three/drei';
+import * as fiber from '@react-three/fiber';
+import { extend } from '@react-three/fiber';
+import GptStack from './components/gptstack/gptstack';
+
 
 function App() {
   return (
@@ -23,15 +29,31 @@ function App() {
       <div>
         <NavBar />
       </div>
-      <ShaderGradientCanvas style={{ position: 'absolute' }}>
+      <ShaderGradientCanvas
+        style={{ position: 'center' }}>
         <Gradient />
-      </ShaderGradientCanvas>
-      <About />
+
+
+      </ShaderGradientCanvas >
+      <div>
+        <About />
+
+      </div>
+
+
+      <div>
+        <GptStack />
+      </div>
 
 
       <div>
         <ProjectCard />
       </div>
+
+
+
+
+
     </div>
   );
 }

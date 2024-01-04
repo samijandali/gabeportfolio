@@ -1,0 +1,27 @@
+/* TechStack.css */
+.tech-stack-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: transparent; /* Adjust background color as needed */
+  }
+  
+  .tech-stack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* This will create a responsive grid */
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    padding: 2rem 0;
+  }
+  
+  .tech-stack-item img {
+    max-width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tech-stack-item p {
+    font-size: 0.9rem;
+    color: #333; /* Adjust text color as needed */
+  }
+  

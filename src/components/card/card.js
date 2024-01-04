@@ -11,7 +11,7 @@ function ProjectCard() {
             <Card className='customCard' style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={deltademo} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Flight Delay Predictor </Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
@@ -22,7 +22,7 @@ function ProjectCard() {
             <Card className='customCard' style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={deltademo} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Android Dungeon Crawler Game</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
@@ -34,7 +34,7 @@ function ProjectCard() {
             <Card className='customCard' style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={deltademo} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>User Demographic Interface</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
@@ -45,7 +45,7 @@ function ProjectCard() {
             <Card className='customCard' style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={deltademo} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Base 2 Music</Card.Title>
                     <Card.Text>
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.

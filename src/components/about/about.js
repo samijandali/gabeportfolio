@@ -4,16 +4,16 @@ import Card from 'react-bootstrap/Card';
 import './about.css';
 import React from 'react';
 
-const backgroundStyle = {
-    backgroundImage: `url(${aboutimg})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'repeat',
-    height: '100vh',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-};
+// const backgroundStyle = {
+//     backgroundImage: `url(${aboutimg})`,
+//     backgroundSize: 'cover',
+//     backgroundPosition: 'center',
+//     backgroundRepeat: 'repeat',
+//     height: '100vh',
+//     display: 'flex',
+//     justifyContent: 'center',
+//     alignItems: 'center',
+// };
 
 const cardStyle = {
     backgroundColor: 'rgba(255, 255, 255, 0.3)',
@@ -33,7 +33,7 @@ const textStyle = {
 };
 
 function About() {
-    return <div style={backgroundStyle}>
+    return <div >
         <Card className='about-card'>
             <Card.Body>
                 <Card.Title className="about-title">A Little Bit About Me</Card.Title>
