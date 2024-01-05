@@ -8,6 +8,8 @@
     margin: auto; /* Center the container */
     text-align: center; /* Center the text */
     font-family: 'Arial', sans-serif; /* Choose a font-family */
+    z-index: 10; /* Ensure this is not too high to obscure underlying components */
+
   }
   
   .about-me-container h2 {

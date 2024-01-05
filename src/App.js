@@ -24,9 +24,9 @@ import GptStack from './components/gptstack/gptstack';
 function App() {
   return (
     <div>
-      <ShaderGradientCanvas style={{ position: 'absolute', height: '2000px', top: -1000 }}>
+      {/* <ShaderGradientCanvas style={{ position: 'absolute', height: '2000px', top: -1000 }}>
         <Gradient />
-      </ShaderGradientCanvas >
+      </ShaderGradientCanvas > */}
       <div>
         <div>
           <NavBar />
