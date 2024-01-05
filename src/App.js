@@ -23,37 +23,24 @@ import GptStack from './components/gptstack/gptstack';
 
 function App() {
   return (
-
     <div>
-
-      <div>
-        <NavBar />
-      </div>
-      <ShaderGradientCanvas
-        style={{ position: 'center' }}>
+            <ShaderGradientCanvas style={{position: 'absolute', height: '2000px', top: -1000}}>
         <Gradient />
-
-
       </ShaderGradientCanvas >
       <div>
-        <About />
-
+        <div>
+          <NavBar />
+        </div>
+        <div>
+          <About />
+        </div>
+        <div>
+          <GptStack />
+        </div>
+        <div>
+          <ProjectCard />
+        </div>
       </div>
-
-
-      <div>
-        <GptStack />
-      </div>
-
-
-      <div>
-        <ProjectCard />
-      </div>
-
-
-
-
-
     </div>
   );
 }

@@ -7,7 +7,7 @@ import React from 'react';
 function NavBar() {
   return (
     <Navbar className="my-navbar justify-content-between">
-      <Container >
+      <Container>
         <Navbar.Brand class="my-name" href="#home">Gabriel Ragy</Navbar.Brand>
         <Nav className="titles">
           <Nav.Link class="my-link" href="#home">Home</Nav.Link>
