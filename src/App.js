@@ -25,33 +25,28 @@ function App() {
   return (
 
     <div>
-      <ShaderGradientCanvas>
+      <ShaderGradientCanvas style={{ position: 'absolute', height: '2000px', top: -1000 }}>
         <Gradient />
       </ShaderGradientCanvas >
-
-      <NavBar />
-
-
-
-      <About />
-
-
-
-
       <div>
-        <GptStack />
+        <div>
+          <NavBar />
+        </div>
+        <div>
+          <About />
+        </div>
+        <div>
+          <GptStack />
+        </div>
+        <div>
+          <ProjectCard />
+        </div>
       </div>
-
-
-      <div>
-        <ProjectCard />
-      </div>
-
-
-
-
-
     </div>
+
+
+
+
   );
 }
 

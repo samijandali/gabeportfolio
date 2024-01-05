@@ -6,9 +6,6 @@ import {
     // @ts-ignore
     useFrame,
 } from 'shadergradient'
-import * as reactSpring from '@react-spring/three';
-import * as drei from '@react-three/drei';
-import * as fiber from '@react-three/fiber';
 function Gradient() {
     const { scene } = useThree()
 
@@ -16,22 +13,16 @@ function Gradient() {
         const mesh = scene.getObjectByName('shadergradient-mesh')
 
         if (mesh.material.userData.uNoiseStrength) {
-            mesh.material.userData.uNoiseStrength.value = 0
+            mesh.material.userData.uNoiseStrength.value = 10
         }
     })
     return (
         <ShaderGradient
-            className='shade'
-            // importedFiber={{ ...fiber, ...drei, ...reactSpring }}
-            style={{
-                position: 'fixed', // Changed from 'absolute' to 'fixed'
-                top: 0,
-                left: 0,
-                width: '100vw', // Full viewport width
-                height: '100vh', // Full viewport height
-                zIndex: -1 // Behind other content
-            }}
-
+            cDistance={8}
+            cPolarAngle={125}
+            color1='#ff5005'
+            color2='#dbba95'
+            color3='#d0bce1'
         // wireframe={false}
         />
     )
