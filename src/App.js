@@ -25,20 +25,17 @@ function App() {
   return (
 
     <div>
-
-      <div>
-        <NavBar />
-      </div>
-      <ShaderGradientCanvas
-        style={{ position: 'center' }}>
+      <ShaderGradientCanvas>
         <Gradient />
-
-
       </ShaderGradientCanvas >
-      <div>
-        <About />
 
-      </div>
+      <NavBar />
+
+
+
+      <About />
+
+
 
 
       <div>

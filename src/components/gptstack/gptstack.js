@@ -7,6 +7,8 @@ import react from '../../assets/logos/react.svg';
 import vscode from '../../assets/logos/vscode.svg'
 import bootstrap from '../../assets/logos/bootstrap.svg'
 import github from '../../assets/logos/github-icon.svg'
+import angular from '../../assets/logos/angular.svg'
+import git from '../../assets/logos/git.svg'
 
 // ... import other technology logos
 
@@ -20,6 +22,8 @@ function GptStack() {
         { id: 'github', name: 'GitHub', logo: github },
         { id: 'boostrap', name: 'Bootstrap', logo: bootstrap },
         { id: 'vscode', name: 'VSCode', logo: vscode },
+        { id: 'angular', name: 'Angular', logo: angular },
+        { id: 'git', name: 'Git', logo: git },
 
         // ... add other technology items here
     ];
