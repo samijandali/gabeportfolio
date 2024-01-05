@@ -1,16 +1,20 @@
-
-.about-card {
-    width: 80rem; /* No quotes needed */
-    background-color: transparent;
-    border-color: rgba(255, 255, 255, 1); /* Adjust as */
-    position: center;
-    
-}
-
-.about-text {
-    font-size: 1.8em; /* Example size */
-}
-
-.about-title {
-    font-size: 2.3em; /* Example size */
-}
+/* AboutMe.css */
+.about-me-container {
+    background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
+    color: #333; /* Text color - adjust as needed */
+    padding: 2rem;
+    border: none; /* No border */
+    max-width: 600px; /* Maximum width of the container */
+    margin: auto; /* Center the container */
+    text-align: center; /* Center the text */
+    font-family: 'Arial', sans-serif; /* Choose a font-family */
+  }
+  
+  .about-me-container h2 {
+    margin-bottom: 1rem; /* Space between the title and the paragraph */
+  }
+  
+  .about-me-container p {
+    line-height: 1.6; /* Makes the text easier to read */
+  }
+  
