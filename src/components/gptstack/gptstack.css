@@ -5,14 +5,16 @@
     background-color: transparent; /* Adjust background color as needed */
   }
   
-  .tech-stack-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* This will create a responsive grid */
-    gap: 1rem;
-    align-items: center;
-    justify-items: center;
-    padding: 2rem 0;
-  }
+  /* TechStack.css */
+.tech-stack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for 6 items */
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  padding: 2rem 0;
+}
+
   
   .tech-stack-item img {
     max-width: 100px; /* Adjust size as needed */
@@ -25,3 +27,15 @@
     color: #333; /* Adjust text color as needed */
   }
   
+  /* img {
+    float: left;
+    width: 25%;
+    perspective: 1000px;  
+    transition: opacity .3s ease 0s, transform .3s ease 0s;
+    transform: scale(1) rotate(0.001deg); 
+  } */
+  
+  img:hover {
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+  }

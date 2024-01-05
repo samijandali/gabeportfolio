@@ -1,12 +1,12 @@
 import React from 'react';
 import './gptstack.css'; // Make sure to create the appropriate CSS file
-import htmlLogo from '../../assets/logos/html.png'; // Update these paths to the actual paths of your icons
-import cssLogo from '../../assets/logos/css.png';
-import jsLogo from '../../assets/logos/javascript.png';
-import react from '../../assets/logos/react.png';
-import vscode from '../../assets/logos/vscode.png'
-import bootstrap from '../../assets/logos/bootstrap.png'
-import github from '../../assets/logos/github.png'
+import htmlLogo from '../../assets/logos/html.svg'; // Update these paths to the actual paths of your icons
+import cssLogo from '../../assets/logos/css.svg';
+import jsLogo from '../../assets/logos/javascript.svg';
+import react from '../../assets/logos/react.svg';
+import vscode from '../../assets/logos/vscode.svg'
+import bootstrap from '../../assets/logos/bootstrap.svg'
+import github from '../../assets/logos/github-icon.svg'
 
 // ... import other technology logos
 
