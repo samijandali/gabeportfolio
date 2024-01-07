@@ -24,9 +24,26 @@ import GptStack from './components/gptstack/gptstack';
 function App() {
   return (
     <div>
-      {/* <ShaderGradientCanvas style={{ position: 'absolute', height: '2000px', top: -1000 }}>
-        <Gradient />
-      </ShaderGradientCanvas > */}
+      {/* <ShaderGradientCanvas className='gradient'
+        importedFiber={{ ...fiber, ...drei, ...reactSpring }}
+        style={{
+          position: 'absolute',
+          top: 0,
+        }}
+      >
+        <ShaderGradient
+          cDistance={10}
+          cPolarAngle={90}
+          grain={'on'}
+          type={'plane'}
+          cAzimuthAngle={0}
+          cameraZoom={0}
+          lightType={'3d'}
+          rotationX={20}
+          zoomOut={'false'}
+
+        />
+      </ShaderGradientCanvas> */}
       <div>
         <div>
           <NavBar />
@@ -39,7 +56,14 @@ function App() {
         </div>
         <div>
           <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
         </div>
+      </div>
+      <div id="logolink">
+        <a target="_blank" href="https://icons8.com/icon/9nmz9TYzN8iO/html-5">Tech Stack</a> icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+
       </div>
     </div>
 

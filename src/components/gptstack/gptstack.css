@@ -37,5 +37,5 @@
   
   img:hover {
     z-index: 10;
-    transform: scale(1.1) rotate(0.001deg);
+    transform: scale(1.2) rotate(0.001deg);
   }

@@ -18,6 +18,8 @@ function Gradient() {
     })
     return (
         <ShaderGradient
+            type='sphere'
+            className='shade'
             cDistance={8}
             cPolarAngle={125}
             color1='#ff5005'
