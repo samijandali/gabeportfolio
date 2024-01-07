@@ -24,7 +24,7 @@ import GptStack from './components/gptstack/gptstack';
 function App() {
   return (
     <div>
-      {/* <ShaderGradientCanvas className='gradient'
+      <ShaderGradientCanvas className='gradient'
         importedFiber={{ ...fiber, ...drei, ...reactSpring }}
         style={{
           position: 'absolute',
@@ -43,7 +43,7 @@ function App() {
           zoomOut={'false'}
 
         />
-      </ShaderGradientCanvas> */}
+      </ShaderGradientCanvas>
       <div>
         <div>
           <NavBar />
