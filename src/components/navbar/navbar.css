@@ -11,11 +11,13 @@ img{
   }
 
 .my-link{
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
     color: #666666;
     padding-left: 60px;
     width: 150px;
+    font-weight: 400;
+
 }
 .my-link:hover{
     font-weight: bold;
