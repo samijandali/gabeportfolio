@@ -2,8 +2,8 @@
     position: fixed;  /* Fixed position to cover the viewport */
     top: 0;
     left: 0;
-    width: 100vw;    /* Cover the full viewport width */
-    height: 100vh;   /* Cover the full viewport height */
+    width: 1000vw;    /* Cover the full viewport width */
+    height: 1000vh;   /* Cover the full viewport height */
     z-index: -1;     /* Sit behind all other content */
   
     /* Your additional background styles here */

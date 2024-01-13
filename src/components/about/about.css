@@ -1,7 +1,7 @@
 /* AboutMe.css */
 .about-me-container {
-    background-color: rgba(255, 255, 255, 0); /* Fully transparent background */
-    color: #333; /* Text color - adjust as needed */
+    background-color: transparent;/* Fully transparent background */
+    color: black; /* Text color - adjust as needed */
     padding: 2rem;
     border: none; /* No border */
     max-width: 600px; /* Maximum width of the container */
@@ -17,7 +17,7 @@
   }
   
   .about-me-container p {
-    line-height: 1.6; /* Makes the text easier to read */
+    line-height: 1.4; /* Makes the text easier to read */
   }
 
   p {

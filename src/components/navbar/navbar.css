@@ -11,12 +11,13 @@ img{
   }
 
 .my-link{
-    font-size: 22px;
+    font-size: smaller;
     text-decoration: none;
     color: #666666;
     padding-left: 60px;
     width: 150px;
-    font-weight: 400;
+    font-weight: 800;
+
 
 }
 .my-link:hover{
@@ -24,6 +25,7 @@ img{
 }
 .my-link:before{
     display: block;
+    font-size: larger;
     font-weight: bold;
     height: 0;
     overflow: hidden;

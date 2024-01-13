@@ -6,6 +6,7 @@ import About from './components/about/about';
 import Gradient from './components/gradient/gradient'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+import { Row } from 'react-bootstrap';
 import {
   ShaderGradientCanvas,
   ShaderGradient,
@@ -24,7 +25,7 @@ import GptStack from './components/gptstack/gptstack';
 function App() {
   return (
     <div>
-      <ShaderGradientCanvas className='gradient'
+      {/* <ShaderGradientCanvas className='gradient'
         importedFiber={{ ...fiber, ...drei, ...reactSpring }}
         style={{
           position: 'absolute',
@@ -32,18 +33,24 @@ function App() {
         }}
       >
         <ShaderGradient
-          cDistance={10}
-          cPolarAngle={90}
+          cDistance={1000}
+          cPolarAngle={100}
           grain={'on'}
           type={'plane'}
-          cAzimuthAngle={0}
-          cameraZoom={0}
+          cAzimuthAngle={180}
+          cameraZoom={10000}
           lightType={'3d'}
-          rotationX={20}
+          rotationX={0}
+          rotationY={0}
+          rotationZ={0}
           zoomOut={'false'}
+          color1='#f4f4f4'
+          color2='#dbba95'
+          color3='#d0bce1'
+
 
         />
-      </ShaderGradientCanvas>
+      </ShaderGradientCanvas> */}
       <div>
         <div>
           <NavBar />
@@ -55,10 +62,11 @@ function App() {
           <GptStack />
         </div>
         <div>
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          <Row>
+            <ProjectCard />
+
+          </Row>
+
         </div>
       </div>
       <div id="logolink">
