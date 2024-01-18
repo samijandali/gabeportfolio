@@ -1,0 +1,27 @@
+/* AboutMe.css */
+.about-me-container {
+    background-color: transparent;/* Fully transparent background */
+    color: black; /* Text color - adjust as needed */
+    padding: 2rem;
+    border: none; /* No border */
+    max-width: 600px; /* Maximum width of the container */
+    margin: auto; /* Center the container */
+    text-align: center; /* Center the text */
+    font-family: 'Arial', sans-serif; /* Choose a font-family */
+    z-index: 10; /* Ensure this is not too high to obscure underlying components */
+
+  }
+  
+  .about-me-container h2 {
+    margin-bottom: 1rem; /* Space between the title and the paragraph */
+  }
+  
+  .about-me-container p {
+    line-height: 1.4; /* Makes the text easier to read */
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  

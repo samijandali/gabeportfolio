@@ -1,0 +1,13 @@
+.work-experience-card {
+    transition: transform 0.3s ease;
+    margin-top:10px;
+    background-color: transparent;
+    border: none;
+    
+  }
+  
+  .work-experience-card:hover {
+    transform: scale(1.05); /* Adjust scale value as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* This adds a little shadow for effect */
+  }
+  

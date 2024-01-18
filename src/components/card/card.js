@@ -13,8 +13,7 @@ function ProjectCard() {
                 <Card.Body>
                     <Card.Title>Flight Delay Predictor </Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Some
                     </Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
@@ -24,8 +23,7 @@ function ProjectCard() {
                 <Card.Body>
                     <Card.Title>Android Dungeon Crawler Game</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        quick
                     </Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
@@ -36,8 +34,7 @@ function ProjectCard() {
                 <Card.Body>
                     <Card.Title>User Demographic Interface</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        example
                     </Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
@@ -47,8 +44,7 @@ function ProjectCard() {
                 <Card.Body>
                     <Card.Title>Base 2</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        text
                     </Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                 </Card.Body>
