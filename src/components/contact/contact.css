@@ -1,0 +1,35 @@
+.contact-container {
+    max-width: 500px; /* Adjust the width as needed */
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: transparent; /* Bootstrap card default background */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Bootstrap card shadow */
+    border-radius: 0.25rem; /* Bootstrap card border radius */
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-container input,
+  .contact-container button {
+    margin-bottom: 1rem; /* Spacing between form elements */
+    padding: 0.5rem;
+    background-color: #ced4da;
+    border: 1px solid #ced4da; /* Bootstrap form elements border color */
+    border-radius: 0.25rem; /* Bootstrap form elements border radius */
+  }
+  
+  .contact-container button {
+    background-color: #007bff; /* Bootstrap primary button background color */
+    color: white; /* Text color */
+    border-color: #007bff; /* Border color */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* Transition for hover effect */
+  }
+  
+  .contact-container button:hover {
+    background-color: #0056b3; /* Darken button on hover - Bootstrap style */
+    border-color: #0056b3;
+  }
+  

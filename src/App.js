@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './components/navbar/navbar';
-import ProjectCard from './components/card/card';
-import About from './components/about/about';
-import ProjectDescription from './components/projectdescription/projectdescription';
-import Gradient from './components/gradient/gradient'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
-import { Row, Col } from 'react-bootstrap';
+import logo from "./logo.svg";
+import "./App.css";
+import NavBar from "./components/navbar/navbar";
+import ProjectCard from "./components/card/card";
+import About from "./components/about/about";
+import ProjectDescription from "./components/projectdescription/projectdescription";
+import Gradient from "./components/gradient/gradient";
+import Contact from "./components/contact/contact";
+import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import { Row, Col } from "react-bootstrap";
 import {
   ShaderGradientCanvas,
   ShaderGradient,
@@ -15,14 +16,13 @@ import {
   useThree,
   // @ts-ignore
   useFrame,
-} from 'shadergradient'
-import * as reactSpring from '@react-spring/three';
-import * as drei from '@react-three/drei';
-import * as fiber from '@react-three/fiber';
-import { extend } from '@react-three/fiber';
-import GptStack from './components/gptstack/gptstack';
-import Experience from './components/experience/experience';
-
+} from "shadergradient";
+import * as reactSpring from "@react-spring/three";
+import * as drei from "@react-three/drei";
+import * as fiber from "@react-three/fiber";
+import { extend } from "@react-three/fiber";
+import GptStack from "./components/gptstack/gptstack";
+import Experience from "./components/experience/experience";
 
 function App() {
   return (
@@ -71,7 +71,6 @@ function App() {
           <div>
             <Row>
               <ProjectCard />
-
             </Row>
           </div>
           <div>
@@ -96,16 +95,27 @@ function App() {
               description="Description of this role and responsibilities."
             />
           </div>
+          <div>
+            <Contact />
+          </div>
         </Col>
       </div>
       <div id="logolink">
-        <a target="_blank" href="https://icons8.com/icon/9nmz9TYzN8iO/html-5">Tech Stack</a> icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a
+          target="_blank"
+          href="https://icons8.com/icon/9nmz9TYzN8iO/html-5"
+        >
+          Tech Stack
+        </a>{" "}
+        icons by{" "}
+        <a
+          target="_blank"
+          href="https://icons8.com"
+        >
+          Icons8
+        </a>
       </div>
     </div>
-
-
-
-
   );
 }
 
