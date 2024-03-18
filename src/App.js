@@ -75,9 +75,9 @@ function App() {
           </div>
           <div>
             <Experience
-              title="Another Position"
-              company="Another Company"
-              description="Description of this role and responsibilities."
+              title="Founder, Event Manager, React Developer"
+              company="Base 2 Music"
+              description="Planned and322"
             />
             <Experience
               title="Another Position"
